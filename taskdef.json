@@ -2,7 +2,7 @@
     "executionRoleArn": "arn:aws:iam::904652522740:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
-            "name": "http-web",
+            "name": "Angel-dev",
             "image": "<IMAGE1_NAME>",
             "essential": true,
             "portMappings": [
@@ -18,7 +18,7 @@
         "EC2"
     ],
     "networkMode": "awsvpc",
-    "cpu": "1024",
+    "cpu": "512",
     "memory": "128",
-    "family": "http-web"
+    "family": "Angel-dev"
 }
